@@ -1,0 +1,113 @@
+﻿  Source1.cpp
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(53,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(56,11): warning C4244: 'initializing': conversion from '_Tp' to 'int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(57,11): warning C4244: 'initializing': conversion from '_Tp' to 'int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(58,11): warning C4244: 'initializing': conversion from '_Tp' to 'int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(59,11): warning C4244: 'initializing': conversion from '_Tp' to 'int', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(62,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(68,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(82,39): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(83,41): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(142,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(151,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(161,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(187,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(223,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(246,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(262,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(290,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(382,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(383,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(384,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(385,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(401,36): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(401,65): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(404,37): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(404,66): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(413,54): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(413,51): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(443,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\nguyen dat\source\repos\Project4\Project4\Source1.cpp(445,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Source1.obj : error LNK2005: _main already defined in Source.obj
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) referenced in function _main
+Source1.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)
+Source.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z) referenced in function _main
+Source1.obj : error LNK2001: unresolved external symbol "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+Source.obj : error LNK2019: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@debug_build_guard@1@@Z) referenced in function _main
+Source1.obj : error LNK2001: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@debug_build_guard@1@@Z)
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::error(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,char const *,int)" (?error@cv@@YAXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD1H@Z) referenced in function "public: float & __thiscall cv::Vec<float,4>::operator[](int)" (??A?$Vec@M$03@cv@@QAEAAMH@Z)
+Source1.obj : error LNK2019: unresolved external symbol "class cv::debug_build_guard::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAABV_InputOutputArray@debug_build_guard@1@XZ) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::Mat(void)" (??0Mat@cv@@QAE@XZ) referenced in function "class cv::Mat __cdecl Fill_Poly(class cv::Mat,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class cv::Scalar_<double> &)" (?Fill_Poly@@YA?AVMat@cv@@V12@V?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@AAV?$Scalar_@N@2@@Z)
+Source1.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@QAE@ABV01@@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "public: static class cv::MatExpr __cdecl cv::Mat::zeros(class cv::Size_<int>,int)" (?zeros@Mat@cv@@SA?AVMatExpr@2@V?$Size_@H@2@H@Z) referenced in function "class cv::Mat __cdecl Fill_Poly(class cv::Mat,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class cv::Scalar_<double> &)" (?Fill_Poly@@YA?AVMat@cv@@V12@V?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@AAV?$Scalar_@N@2@@Z)
+Source1.obj : error LNK2019: unresolved external symbol "public: bool __thiscall cv::Mat::empty(void)const " (?empty@Mat@cv@@QBE_NXZ) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::Mat(class cv::Mat &&)" (??0Mat@cv@@QAE@$$QAV01@@Z) referenced in function "class cv::Mat __cdecl Fill_Poly(class cv::Mat,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class cv::Scalar_<double> &)" (?Fill_Poly@@YA?AVMat@cv@@V12@V?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@AAV?$Scalar_@N@2@@Z)
+Source1.obj : error LNK2019: unresolved external symbol "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Mat &&)" (??4Mat@cv@@QAEAAV01@$$QAV01@@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::addWeighted(class cv::debug_build_guard::_InputArray const &,double,class cv::debug_build_guard::_InputArray const &,double,double,class cv::debug_build_guard::_OutputArray const &,int)" (?addWeighted@cv@@YAXABV_InputArray@debug_build_guard@1@N0NNABV_OutputArray@31@H@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::bitwise_and(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &)" (?bitwise_and@cv@@YAXABV_InputArray@debug_build_guard@1@0ABV_OutputArray@31@0@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::VideoCapture::VideoCapture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (??0VideoCapture@cv@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall cv::VideoCapture::~VideoCapture(void)" (??1VideoCapture@cv@@UAE@XZ) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "public: virtual void __thiscall cv::VideoCapture::release(void)" (?release@VideoCapture@cv@@UAEXXZ) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::destroyAllWindows(void)" (?destroyAllWindows@cv@@YAXXZ) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::getStructuringElement(int,class cv::Size_<int>,class cv::Point_<int>)" (?getStructuringElement@cv@@YA?AVMat@1@HV?$Size_@H@1@V?$Point_@H@1@@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::GaussianBlur(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?GaussianBlur@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@V?$Size_@H@1@NNH@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::HoughLinesP(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,double,double,int,double,double)" (?HoughLinesP@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@NNHNN@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::dilate(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::Point_<int>,int,int,class cv::Scalar_<double> const &)" (?dilate@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@0V?$Point_@H@1@HHABV?$Scalar_@N@1@@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::warpPerspective(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::Size_<int>,int,int,class cv::Scalar_<double> const &)" (?warpPerspective@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@0V?$Size_@H@1@HHABV?$Scalar_@N@1@@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::getPerspectiveTransform(class cv::Point_<float> const * const,class cv::Point_<float> const * const,int)" (?getPerspectiveTransform@cv@@YA?AVMat@1@QBV?$Point_@M@1@0H@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "double __cdecl cv::threshold(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,double,double,int)" (?threshold@cv@@YANABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@NNH@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::cvtColor(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@HH@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::line(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?line@cv@@YAXABV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@1ABV?$Scalar_@N@1@HHH@Z) referenced in function _main
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::fillPoly(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int> const * *,int const *,int,class cv::Scalar_<double> const &,int,int,class cv::Point_<int>)" (?fillPoly@cv@@YAXABV_InputOutputArray@debug_build_guard@1@PAPBV?$Point_@H@1@PBHHABV?$Scalar_@N@1@HHV41@@Z) referenced in function "class cv::Mat __cdecl Fill_Poly(class cv::Mat,class std::vector<class cv::Point_<int>,class std::allocator<class cv::Point_<int> > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class cv::Scalar_<double> &)" (?Fill_Poly@@YA?AVMat@cv@@V12@V?$vector@V?$Point_@H@cv@@V?$allocator@V?$Point_@H@cv@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@AAV?$Scalar_@N@2@@Z)
+Source1.obj : error LNK2019: unresolved external symbol "void __cdecl cv::putText(class cv::debug_build_guard::_InputOutputArray const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXABV_InputOutputArray@debug_build_guard@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z) referenced in function _main
+E:\dowload sw\opencv\build\x64\vc15\lib\opencv_world453d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\nguyen dat\source\repos\Project4\Debug\Project4.exe : fatal error LNK1120: 29 unresolved externals
